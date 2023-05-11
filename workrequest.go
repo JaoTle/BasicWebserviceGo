@@ -8,7 +8,7 @@ import (
 	"net/http"
 )
 
-// customer ชื่อ key
+// customize ชื่อ key
 type Course struct {
 	ID         int     `json: "id"`
 	Name       string  `json: "name"`
